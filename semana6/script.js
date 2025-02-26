@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.style.alignItems = 'center';
     document.body.style.height = '100vh';
     document.body.style.fontFamily = 'Helvetica';
+    document.body.style.background = 'linear-gradient(to right, #A8E6FF, #D8B4F8)';
 
     contador();
 });
@@ -22,6 +23,7 @@ function contador() {
     contadorDiv.style.borderRight = '1px solid black';
     contadorDiv.style.borderBottom = '1px solid black';
     contadorDiv.style.boxShadow = '5px 5px 5px gray';
+    contadorDiv.style.background = "#ffffff";
 
     const h1 = document.createElement('h1');
     const textoTitulo = document.createTextNode('Total');
